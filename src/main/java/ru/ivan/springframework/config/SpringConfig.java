@@ -1,12 +1,11 @@
 package ru.ivan.springframework.config;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import ru.ivan.springframework.dto.CityDto;
-import ru.ivan.springframework.service.CityService;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @Configuration
+@EnableWebMvc
 @ComponentScan("ru.ivan.springframework")
 public class SpringConfig {
 }
