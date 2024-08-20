@@ -1,5 +1,8 @@
 package ru.ivan.springframework.dto;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class CityDto {
     public int id = 1;
     public String name = "Saint Petersburg";

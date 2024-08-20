@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ecbc8e9-96f2-4b24-aef6-f9b8c926949a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/dto/CityDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/dto/CityDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/service/CityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/service/CityService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724173056582</updated>
-      <workItem from="1724173057953" duration="3325000" />
+      <workItem from="1724173057953" duration="4911000" />
     </task>
     <servers />
   </component>
