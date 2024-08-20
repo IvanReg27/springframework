@@ -12,6 +12,13 @@
     <list default="true" id="4ecbc8e9-96f2-4b24-aef6-f9b8c926949a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/config/DatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/config/DatabaseConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/controller/CityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/controller/CityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/dto/CityDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/dto/CityDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/service/CityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/service/CityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -63,6 +71,13 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ivan\IdeaProjects\springframework" />
+      <recent name="C:\Users\Ivan\IdeaProjects\springframework\.idea" />
+      <recent name="C:\Users\Ivan\IdeaProjects\springframework\src" />
+    </key>
+  </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.91">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.ivan.springframework.App" />
@@ -171,7 +186,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724173056582</updated>
-      <workItem from="1724173057953" duration="10695000" />
+      <workItem from="1724173057953" duration="16305000" />
     </task>
     <servers />
   </component>

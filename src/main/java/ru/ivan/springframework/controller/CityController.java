@@ -12,9 +12,8 @@ public class CityController {
     @Autowired
     CityService service;
 
-    @GetMapping("/findCityName")
-    public String findCityName() {
-        return service.getCityName();
-
+    @GetMapping("/findCities")
+    public String findCities() {
+        return service.getCities().toString();
     }
 }
