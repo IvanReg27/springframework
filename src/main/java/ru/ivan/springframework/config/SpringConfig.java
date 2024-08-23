@@ -22,7 +22,6 @@ public class SpringConfig implements WebMvcConfigurer {
     @Override
     public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
         MappingJackson2HttpMessageConverter messageConverter = new MappingJackson2HttpMessageConverter();
-        // Using the default ObjectMapper, or you can configure it as needed
         messageConverter.setObjectMapper(new ObjectMapper());
         messageConverter.setSupportedMediaTypes(Collections.singletonList(MediaType.APPLICATION_JSON));
         converters.add(messageConverter);
