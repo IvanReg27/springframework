@@ -23,4 +23,8 @@ public class CityService {
                 .map(city -> modelMapper.map(city, CityDto.class))
                 .collect(Collectors.toList());
     }
+    public CityDto saveCity(CityDto cityDto) {
+        City city = modelMapper.map(cityDto, City.class);
+        return modelMapper.map(cityRepository.save(city), CityDto.class);
+    }
 }
