@@ -9,7 +9,6 @@ import ru.ivan.springframework.service.CityService;
 
 import java.util.List;
 
-
 @RestController
 @RequestMapping("/city")
 @AllArgsConstructor

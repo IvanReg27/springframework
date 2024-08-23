@@ -3,7 +3,7 @@ package ru.ivan.springframework.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "city")  // Use singular lowercase for table names
+@Table(name = "city")
 public class City {
 
     @Id

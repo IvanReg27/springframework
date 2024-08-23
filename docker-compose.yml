@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   db:
-    image: postgres:15.3  # Specify a specific version
+    image: postgres:15.3
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: admin
