@@ -9,12 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ecbc8e9-96f2-4b24-aef6-f9b8c926949a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/controller/CityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/controller/CityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/service/CityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivan/springframework/service/CityService.java" afterDir="false" />
-    </list>
+    <list default="true" id="4ecbc8e9-96f2-4b24-aef6-f9b8c926949a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -267,7 +262,7 @@
       <workItem from="1724173057953" duration="16339000" />
       <workItem from="1724261016139" duration="9958000" />
       <workItem from="1724272307357" duration="1148000" />
-      <workItem from="1724436235176" duration="6723000" />
+      <workItem from="1724436235176" duration="7058000" />
     </task>
     <servers />
   </component>

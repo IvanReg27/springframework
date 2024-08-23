@@ -25,6 +25,7 @@ public class CityService {
     }
     public CityDto saveCity(CityDto cityDto) {
         City city = modelMapper.map(cityDto, City.class);
-        return modelMapper.map(cityRepository.save(city), CityDto.class);
+        City savedCity = cityRepository.save(city);
+        return modelMapper.map(savedCity, CityDto.class);
     }
 }
