@@ -1,0 +1,11 @@
+
+o
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ÆìŞô8»Š²—2
+R
+java:S1128"5Remove this unused import 'lombok.NoArgsConstructor'.(¸¨›8½Š²—2
+]
+java:S1128";Remove this unused import 'lombok.RequiredArgsConstructor'.(ÑØúøÿÿÿÿ8½Š²—2
+u
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8º¤—µ—2
+g
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8½Š²—2

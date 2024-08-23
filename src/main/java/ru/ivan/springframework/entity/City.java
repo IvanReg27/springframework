@@ -3,15 +3,23 @@ package ru.ivan.springframework.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "City")
+@Table(name = "city")  // Use singular lowercase for table names
 public class City {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+
+    @Column(name = "name", nullable = false)
     private String name;
-    private Integer population;
-    private String attraction;
-    private String subway;
+
+    // Default constructor
+    public City() {}
+
+    // Constructor with parameters
+    public City(String name) {
+        this.name = name;
+    }
 
     public Integer getId() {
         return id;
@@ -27,29 +35,5 @@ public class City {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public Integer getPopulation() {
-        return population;
-    }
-
-    public void setPopulation(Integer population) {
-        this.population = population;
-    }
-
-    public String getAttraction() {
-        return attraction;
-    }
-
-    public void setAttraction(String attraction) {
-        this.attraction = attraction;
-    }
-
-    public String getSubway() {
-        return subway;
-    }
-
-    public void setSubway(String subway) {
-        this.subway = subway;
     }
 }

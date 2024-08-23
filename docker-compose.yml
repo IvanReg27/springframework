@@ -1,9 +1,8 @@
-version: '3.8'
+version: '3.7'
 
 services:
   db:
-    image: postgres:latest
-    container_name: postgres_container
+    image: postgres:15.3  # Specify a specific version
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: admin
@@ -12,11 +11,12 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
     networks:
-      - postgres_network
+      - default
 
 volumes:
   postgres_data:
 
 networks:
-  postgres_network:
+  default:

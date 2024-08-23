@@ -1,7 +1,16 @@
 package ru.ivan.springframework.dto;
 
 public class CityDto {
-    public String name = "Saint Petersburg";
+    private String name = "Saint Petersburg";
+
+    // Default constructor
+    public CityDto() {
+    }
+
+    // Constructor with name parameter
+    public CityDto(String name) {
+        this.name = name;
+    }
 
     public String getName() {
         return name;
